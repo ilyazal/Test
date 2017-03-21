@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="GUI.AuthorizationController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="516.0" stylesheets="main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#authoritationVK" stylesheets="button.css" styleClass="buttonenter,textenter"   layoutX="188.0" layoutY="190.0" mnemonicParsing="false" text="Авторизация через VK" />
+      <Label stylesheets="text.css" styleClass="text2" layoutX="157.0" layoutY="75.0" text="Бот для создания опросов в VK" />
+   </children>
+</AnchorPane>
